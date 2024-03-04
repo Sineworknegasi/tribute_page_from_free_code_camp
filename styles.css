@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&display=swap');
+:root {
+    --color-black:rgb(51,51,51);
+    --bg-color: #EEEEEE;
+    --bg-color2: #FFFFFF;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.1rem;
+    background-color: var(--bg-color2);
+    margin: 2rem 0.5rem;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--bg-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    
+}
+#title {
+    padding: 2rem 0;
+    text-align: center;
+    font-family: 'Madimi One', cursive;
+    font-size: 3rem;
+    color: var(--color-black);
+}
+#discription{
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--color-black);
+}
+#img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 0 auto;
+}
+#img-caption {
+    text-align: center;
+    margin: 1rem 0rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-black);
+}
+img {
+    display:block;
+}
+#image {
+    max-width:100%;
+    height:auto;
+    justify-content: center;
+}
+#tribute-info {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+#tribute-info > h2 {
+    font-family: 'Madimi One', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 2rem 0;
+    color: var(--color-black);
+}
+
+#tribute-info ul li {
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin: 1rem 0;
+    color: var(--color-black);
+}
+.comment {
+    font-family: "Roboto Flex", sans-serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: var(--color-black);
+}
+main h2 {
+    font-family: 'Madimi One', cursive;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 2rem 0;
+    color: var(--color-black);
+}
+main h2 a {
+    color: #477CA7;
+}
